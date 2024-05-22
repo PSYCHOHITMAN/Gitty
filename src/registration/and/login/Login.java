@@ -34,7 +34,6 @@ class Task {
         return (taskName.substring(0, 2) + ":" + taskNumber + ":" + developerLastName.substring(developerLastName.length() - 3)).toUpperCase();
     }
 
-    @Override
     public String toString() {
         return "Task Name: " + taskName + "\n" +
                "Task Number: " + taskNumber + "\n" +
