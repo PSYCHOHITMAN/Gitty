@@ -120,5 +120,41 @@ public class LoginTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of displayMenu method, of class Login.
+     */
+    @Test
+    public void testDisplayMenu() {
+        System.out.println("displayMenu");
+        Login instance = null;
+        instance.displayMenu();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of addTasks method, of class Login.
+     */
+    @Test
+    public void testAddTasks() {
+        System.out.println("addTasks");
+        Login instance = null;
+        instance.addTasks();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of showReport method, of class Login.
+     */
+    @Test
+    public void testShowReport() {
+        System.out.println("showReport");
+        Login instance = null;
+        instance.showReport();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
